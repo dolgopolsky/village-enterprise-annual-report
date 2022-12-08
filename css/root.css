@@ -1,0 +1,120 @@
+:root {
+	--rem-base: 10px;
+	--base-font-size: 16px;
+	--base-line-height: 1.2;
+	--vertical-rhythm: calc(var(--base-line-height) * 1em);
+	--brand-color: #133125;
+	--brand-color-dark: black;
+	--brand-color-light: #28684f;
+	--accent-color: #6ba539;
+	--accent-color-dark: #466c25;
+	--accent-color-light: #466c25;
+	--base-text-color: var(--color-brand);
+	--base-link-color: var(--color-accent);
+	--h1-h6-color: var(--base-text-color);
+	--color-white: #fff;
+	--color-white--rgb: 255, 255, 255;
+	--color-black: #161613;
+	--color-black--rgb: 22, 22, 19;
+	--color-brand: #133125;
+	--color-brand--rgb: 19, 49, 37;
+	--color-brand-dark: #050c09;
+	--color-brand-dark--rgb: 5, 12, 9;
+	--color-brand-light: #6ba539;
+	--color-brand-light--rgb: 107, 165, 57;
+	--color-accent: #6ba539;
+	--color-accent--rgb: 107, 165, 57;
+	--color-accent-dark: #527f2c;
+	--color-accent-dark--rgb: 82, 127, 44;
+	--color-accent-light: #84c24f;
+	--color-accent-light--rgb: 132, 194, 79;
+	--color-text: #133125;
+	--color-text--rgb: 19, 49, 37;
+	--color-text-secondary: #f0f8ed;
+	--color-text-secondary--rgb: 240, 248, 237;
+	--color-text-headline: #007d70;
+	--color-text-headline--rgb: 0, 125, 112;
+	--color-caption: #b0aeae;
+	--color-caption--rgb: 176, 174, 174;
+	--color-border: #dae8cd;
+	--color-border--rgb: 218, 232, 205;
+	--color-background: #f0f8ed;
+	--color-background--rgb: 240, 248, 237;
+	--color-border-brand: #76a248;
+	--color-border-brand--rgb: 118, 162, 72;
+	--color-pink: #aa5371;
+	--color-pink--rgb: 170, 83, 113;
+	--color-light-green-text: #f0f8ed;
+	--color-light-green-text--rgb: 240, 248, 237;
+	--color-light-green: #6ba539;
+	--color-light-green--rgb: 107, 165, 57;
+	--color-green: #007d70;
+	--color-green--rgb: 0, 125, 112;
+	--color-orange: #f98e2c;
+	--color-orange--rgb: 249, 142, 44;
+	--color-yellow: #cec22d;
+	--color-yellow--rgb: 206, 194, 45;
+	--color-dark-orange: #f56439;
+	--color-dark-orange--rgb: 245, 100, 57;
+	--color-blue: #82bcb5;
+	--color-blue--rgb: 130, 188, 181;
+	--color-brown: #2e281d;
+	--color-brown--rgb: 46, 40, 29;
+	--color-map: #c7ddbf;
+	--color-map--rgb: 199, 221, 191;
+	--animation-duration: 0.3s;
+	--animation-timing-function: ease;
+	--input-x: 20px;
+	--gutter: 35px;
+	--input-color: #4b4a4a;
+	--input-placeholder-color: #7e7d7d;
+	--input-bg-color: white;
+	--input-radius: 3px;
+	--input-border-color: #eee;
+	--input-focus-border-color: #cdcdcd;
+	--form-theme-color: #133125;
+	--checkbox-size: 18px;
+	--radio-size: 18px;
+	--label-fz: 13px;
+	--label-color: #4b4a4a;
+	--error-color: #e04562;
+	--error-bg-color: #fadee3;
+	--form-col-gutter: 15px;
+	--form-row-margin: 22.5px;
+	--h1: 5.5rem;
+	--h2: 3.4rem;
+	--h3: 2.8rem;
+	--h4: 24px;
+	--h5: 18px;
+	--h6: 16px;
+	--btn-y: 11px;
+	--btn-x: 20px;
+	--btn-b: 2px;
+	--btn-r: 5px;
+	--btn-fz: 18px;
+}
+@media (max-width: 768px) {
+	:root {
+		--h1: 32px;
+		--h2: 28px;
+		--h3: 24px;
+		--h4: 20px;
+		--h5: 18px;
+		--h6: 16px;
+	}
+}
+@media (max-width: 480px) {
+	:root {
+		--h1: 30px;
+		--h2: 26px;
+		--h3: 22px;
+		--h4: 20px;
+		--h5: 18px;
+		--h6: 16px;
+	}
+}
+@media (min-width: 812px) and (max-height: 414px) and (orientation: landscape) {
+	:root {
+		--gutter: 50px;
+	}
+}

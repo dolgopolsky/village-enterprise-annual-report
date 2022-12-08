@@ -1,0 +1,6 @@
+<svg id="ico-modal-next" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="iconmonstr-x-mark-7" d="M30,5A25,25,0,1,1,5,30,25.028,25.028,0,0,1,30,5Zm0-5A30,30,0,1,0,60,30,30,30,0,0,0,30,0Z" fill="#6ba539"/>
+  <g id="iconmonstr-arrow-20" transform="translate(16 17)">
+    <path id="iconmonstr-arrow-20-2" data-name="iconmonstr-arrow-20" d="M15.739,1,12.3,4.342l7.463,7.3H0v4.718H19.761l-7.463,7.3L15.739,27,29,14Z" transform="translate(0 -1)" fill="#6ba539"/>
+  </g>
+</svg>
